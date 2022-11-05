@@ -1,0 +1,14 @@
+name = "jurnel"
+main = "src/index.ts"
+compatibility_date = "2022-11-05"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ ]
+
+[durable_objects]
+bindings = [
+  { name = "users", class_name = "User" },
+  { name = "journals", class_name = "Journal" },
+]
