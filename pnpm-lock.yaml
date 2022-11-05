@@ -2,12 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@cloudflare/workers-types': ^3.18.0
-  hono: ^2.4.1
   typescript: ^4.8.4
   wrangler: 2.1.9
-
-dependencies:
-  hono: 2.4.1
 
 devDependencies:
   '@cloudflare/workers-types': 3.18.0
@@ -570,11 +566,6 @@ packages:
     dependencies:
       is-glob: 4.0.3
     dev: true
-
-  /hono/2.4.1:
-    resolution: {integrity: sha512-cxnfkoMJSyt7Kg17HdbL4/k63Mo80v8DvIXY4qHrQX9ceFiEo73oTH/Ikr8Ii7ym/ur78x9O5/4zQ6as9TRz9A==}
-    engines: {node: '>=16.0.0'}
-    dev: false
 
   /html-rewriter-wasm/0.4.1:
     resolution: {integrity: sha512-lNovG8CMCCmcVB1Q7xggMSf7tqPCijZXaH4gL6iE8BFghdQCbaY5Met9i1x2Ex8m/cZHDUtXK9H6/znKamRP8Q==}
