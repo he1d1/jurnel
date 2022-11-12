@@ -10,5 +10,4 @@ crons = [ ]
 [durable_objects]
 bindings = [
   { name = "users", class_name = "User" },
-  { name = "journals", class_name = "Journal" },
 ]

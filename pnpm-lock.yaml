@@ -2,11 +2,21 @@ lockfileVersion: 5.4
 
 specifiers:
   '@cloudflare/workers-types': ^3.18.0
+  '@types/itty-router-extras': ^0.4.0
+  itty-durable: ^1.4.0
+  itty-router: ^2.6.6
+  itty-router-extras: ^0.4.2
   typescript: ^4.8.4
   wrangler: 2.1.9
 
+dependencies:
+  itty-durable: 1.4.0
+  itty-router: 2.6.6
+  itty-router-extras: 0.4.2
+
 devDependencies:
   '@cloudflare/workers-types': 3.18.0
+  '@types/itty-router-extras': 0.4.0
   typescript: 4.8.4
   wrangler: 2.1.9
 
@@ -219,6 +229,12 @@ packages:
     resolution: {integrity: sha512-RgmaapusqTq6IMAr4McMyAsC6RshYTCjXCnzwVV59WctUxC8bNPyUfT9t5F81lKcU41lLurhjqjoMHfauzfqGg==}
     dependencies:
       '@types/node': 18.11.9
+    dev: true
+
+  /@types/itty-router-extras/0.4.0:
+    resolution: {integrity: sha512-IcXmXB8vVbjWy4McZjKzo+3sdQyzMpyHi5mQ4iViu6yX9cS/SVlGR+6H/AgzfG32svaQJeOhl2gfXYwf1AKEgg==}
+    dependencies:
+      itty-router: 2.6.6
     dev: true
 
   /@types/node/18.11.9:
@@ -612,6 +628,20 @@ packages:
   /isexe/2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: true
+
+  /itty-durable/1.4.0:
+    resolution: {integrity: sha512-53g5X09AfKf3TXs+GliDYOq7Av3NX3urHvo1DdGRLYIimTivbYr5KeJBLRgzsLHWXstg0g3yjeDF47wKoYmAow==}
+    dependencies:
+      itty-router: 2.6.6
+      itty-router-extras: 0.4.2
+    dev: false
+
+  /itty-router-extras/0.4.2:
+    resolution: {integrity: sha512-ppHaBzcTXs7idFSDISehG+8kif2/4aqLCfyY/Y/uIZv79sfEfNmTq9G+rDeqblun/VZRBiXZD8ztYmMS8EOsKw==}
+    dev: false
+
+  /itty-router/2.6.6:
+    resolution: {integrity: sha512-hIPHtXGymCX7Lzb2I4G6JgZFE4QEEQwst9GORK7sMYUpJvLfy4yZJr95r04e8DzoAnj6HcxM2m4TbK+juu+18g==}
 
   /kleur/4.1.5:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
